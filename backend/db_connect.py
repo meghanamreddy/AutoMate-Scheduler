@@ -36,5 +36,5 @@ def insertToDb(text, intent):
     collection_name.insert_one(db_entry)
 
 if __name__ == "__main__":   
-    #hist = getHistoryFromDb()
-    #print(hist)
+    hist = getHistoryFromDb()
+    print(hist)
